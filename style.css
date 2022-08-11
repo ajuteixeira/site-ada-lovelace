@@ -2,12 +2,42 @@
 
 body {
   margin: 0;
-  text-align: center;
+  max-width: 100%;
   font-family: 'Open Sans', sans-serif;
   font-weight: 300;
   line-height: 1.7rem;
+  text-align: center;
+  color: #f4f4f4;
   background-color: #8a71c9;
-  color: #ffffff;
+}
+
+.menu {
+  border-top: 1px solid #a18bda;
+  border-bottom: 1px solid #a18bda;
+}
+
+.menu__list {
+  display: flex;
+  justify-content: center;
+  list-style-type: none;
+  padding-inline-start: 0;
+}
+
+.menu__list__item {
+  padding: 0 1rem;
+  text-transform: uppercase;
+}
+
+.menu__list__item-link {
+  color: #fefefe;
+  font-weight: 400;
+  font-size: .9rem;
+  text-decoration: none;
+}
+
+.menu__list__item-link:hover {
+  color: #ffe36d;
+  text-decoration: underline;
 }
 
 h1 {
@@ -27,6 +57,11 @@ h3 {
   text-decoration: underline 1px dotted;
 }
 
+.title {
+  font-family: 'Spline Sans Mono', monospace;
+  font-weight: 700;
+}
+
 .purple__title {
   color: #2a0074;
 }
@@ -43,12 +78,7 @@ h3 {
   color: #ffe36d;
 }
 
-.title {
-  font-family: 'Spline Sans Mono', monospace;
-  font-weight: 700;
-}
-
-section {
+article {
   margin: 0 auto;
   max-width: 55%;
 }
@@ -68,32 +98,71 @@ img:hover {
   border: #ffe36d 7px solid;
 }
 
-nav {
+.menu__women {
   padding-top: 2rem;
   padding-bottom: 3rem;
 }
 
-.women__list {
+.menu__women__list {
   line-height: 2;
   list-style-type: none;
 }
 
-.women__list__names {
+.menu__women__list__names {
   font-weight: 400;
   font-family: 'Spline Sans Mono', monospace;
   text-decoration: none;
   color: #99ffff;
 }
 
-.women__list__names:hover {
+.menu__women__list__names:hover {
   font-weight: 600;
   text-decoration: underline;
 }
 
+hr {
+  opacity: 20%;
+}
+
+.contact {
+  padding: 3rem 0;
+}
+
+.contact__form {
+  padding-bottom: 3rem;
+}
+
+.contact__form-label {
+  padding: .5rem;
+  font-size: .9rem;
+}
+
+.contact__form-input {
+  width: 17%;
+  padding: .5rem;
+  border: none;
+  opacity: 80%;
+}
+
+.contact__form-input:hover {
+opacity: 100%;
+}
+
+.contact__form-button {
+  padding: .5rem 1rem;
+  border: none;
+  color: #2a0074;
+  background-color: #ffe36d;
+}
+
+.contact__form-button:hover {
+  color: #2a0074;
+  background-color: #ff9e9e;
+}
+
 footer {
+  padding: 1rem;
   margin: 0;
-  width: 100vw;
-  padding: 1.2rem;
   color: #666;
   background-color: #fefefe;
 }
