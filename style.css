@@ -178,3 +178,27 @@ footer a:hover {
   font-weight: 600;
   color: #ff9e9e;
 }
+
+/* ANIMAÇÕES */ 
+
+[data-anime] {
+  transition: 0.6s;
+  opacity: 0;
+}
+
+[data-anime=top] {
+  transform: translate3d(0, -50px, 0);
+}
+
+[data-anime=left] {
+  transform: translate3d(-30px, 0, 0);
+}
+
+[data-anime=right] {
+  transform: translate3d(30px, 0, 0);
+}
+
+[data-anime].animate {
+  opacity: 1;
+  transform: translate3d(0, 0, 0);
+}
