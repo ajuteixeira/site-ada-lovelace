@@ -1,0 +1,111 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300;0,500;0,700;0,800;1,300&family=Spline+Sans+Mono:wght@300;400;500;600;700&display=swap');
+
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+  font-weight: 300;
+  line-height: 1.7rem;
+  background-color: #8a71c9;
+  color: #ffffff;
+}
+
+h1 {
+  margin: 5rem 0 5rem 0;
+  font-size: 3.5rem;
+  font-weight: 700;
+  line-height: 3.7rem;
+}
+
+h2 {
+  font-size: 2.2rem;
+  text-decoration: underline 1px dotted;
+}
+
+h3 {
+  font-size: 1.5rem;
+  text-decoration: underline 1px dotted;
+}
+
+.purple__title {
+  color: #2a0074;
+}
+
+.green__title {
+  color: #04ff9f;
+}
+
+.red__title {
+  color: #ff9e9e;
+}
+
+.yellow__title {
+  color: #ffe36d;
+}
+
+.title {
+  font-family: 'Spline Sans Mono', monospace;
+  font-weight: 700;
+}
+
+section {
+  margin: 0 auto;
+  max-width: 55%;
+}
+
+img {
+  width: 95%;
+  border: #ff9e9e 7px solid;
+}
+
+img:hover {
+  opacity: 90%;
+}
+
+.circle-img {
+  width: 40%;
+  border-radius: 100%;
+  border: #ffe36d 7px solid;
+}
+
+nav {
+  padding-top: 2rem;
+  padding-bottom: 3rem;
+}
+
+.women__list {
+  line-height: 2;
+  list-style-type: none;
+}
+
+.women__list__names {
+  font-weight: 400;
+  font-family: 'Spline Sans Mono', monospace;
+  text-decoration: none;
+  color: #99ffff;
+}
+
+.women__list__names:hover {
+  font-weight: 600;
+  text-decoration: underline;
+}
+
+footer {
+  margin: 0;
+  width: 100vw;
+  padding: 1.2rem;
+  color: #666;
+  background-color: #fefefe;
+}
+
+footer a {
+  font-family: 'Spline Sans Mono', monospace;
+  font-weight: 400;
+  text-decoration: none;
+  color: #8a71c9;
+}
+
+footer a:hover {
+  font-weight: 600;
+  color: #ff9e9e;
+}
