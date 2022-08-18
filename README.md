@@ -9,6 +9,6 @@ O site desenvolvido ao longo do curso é uma homenagem à primeira programadora 
 * Lista de outras mulheres marcantes
 * Formulário de contato
 
-# <a href="https://www.w3schools.com" target="_blank">Acesse o site aqui :)</a>
+# <a href="https://ajuteixeira.github.io/site-ada-lovelace/" target="_blank">Acesse o site aqui :)</a>
 
 <img src="https://www.imagemhost.com.br/images/2022/08/11/site-ada.png" style="width:100%;">
